@@ -1,0 +1,11 @@
+name: first Workfolw
+on: workflow_dispatch
+jobs:
+  first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: first_step
+        run : "echo first step"
+      - name: second_step
+        run : "good bay"
+      

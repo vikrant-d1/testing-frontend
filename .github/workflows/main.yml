@@ -7,5 +7,5 @@ jobs:
       - name: first_step
         run : "echo first step"
       - name: second_step
-        run : "good bay"
+        run : "echo good bay"
       
